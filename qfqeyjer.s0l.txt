@@ -1,0 +1,50 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   Search and Destroy SMS/.idea/.name
+#	new file:   Search and Destroy SMS/.idea/compiler.xml
+#	new file:   Search and Destroy SMS/.idea/copyright/profiles_settings.xml
+#	new file:   Search and Destroy SMS/.idea/encodings.xml
+#	new file:   Search and Destroy SMS/.idea/misc.xml
+#	new file:   Search and Destroy SMS/.idea/modules.xml
+#	new file:   Search and Destroy SMS/.idea/scopes/scope_settings.xml
+#	new file:   Search and Destroy SMS/.idea/vcs.xml
+#	new file:   Search and Destroy SMS/.idea/workspace.xml
+#	new file:   Search and Destroy SMS/AndroidManifest.xml
+#	new file:   Search and Destroy SMS/Search and Destroy SMS.iml
+#	new file:   Search and Destroy SMS/ant.properties
+#	new file:   Search and Destroy SMS/build.xml
+#	new file:   Search and Destroy SMS/gen/com/example/Search_and_Destroy_SMS/BuildConfig.java
+#	new file:   Search and Destroy SMS/gen/com/example/Search_and_Destroy_SMS/Manifest.java
+#	new file:   Search and Destroy SMS/gen/com/example/Search_and_Destroy_SMS/R.java
+#	new file:   Search and Destroy SMS/local.properties
+#	new file:   Search and Destroy SMS/out/production/Search and Destroy SMS/Search and Destroy SMS.apk
+#	new file:   Search and Destroy SMS/out/production/Search and Destroy SMS/com/example/Search_and_Destroy_SMS/BuildConfig.class
+#	new file:   Search and Destroy SMS/out/production/Search and Destroy SMS/com/example/Search_and_Destroy_SMS/MyActivity$1.class
+#	new file:   Search and Destroy SMS/out/production/Search and Destroy SMS/com/example/Search_and_Destroy_SMS/MyActivity.class
+#	new file:   Search and Destroy SMS/out/production/Search and Destroy SMS/com/example/Search_and_Destroy_SMS/R$attr.class
+#	new file:   Search and Destroy SMS/out/production/Search and Destroy SMS/com/example/Search_and_Destroy_SMS/R$drawable.class
+#	new file:   Search and Destroy SMS/out/production/Search and Destroy SMS/com/example/Search_and_Destroy_SMS/R$id.class
+#	new file:   Search and Destroy SMS/out/production/Search and Destroy SMS/com/example/Search_and_Destroy_SMS/R$layout.class
+#	new file:   Search and Destroy SMS/out/production/Search and Destroy SMS/com/example/Search_and_Destroy_SMS/R$string.class
+#	new file:   Search and Destroy SMS/out/production/Search and Destroy SMS/com/example/Search_and_Destroy_SMS/R.class
+#	new file:   Search and Destroy SMS/proguard-project.txt
+#	new file:   Search and Destroy SMS/project.properties
+#	new file:   Search and Destroy SMS/res/drawable-hdpi/ic_launcher.png
+#	new file:   Search and Destroy SMS/res/drawable-hdpi/real_nuke.png
+#	new file:   Search and Destroy SMS/res/drawable-ldpi/ic_launcher.png
+#	new file:   Search and Destroy SMS/res/drawable-mdpi/ic_launcher.png
+#	new file:   Search and Destroy SMS/res/drawable-xhdpi/ic_launcher.png
+#	new file:   Search and Destroy SMS/res/layout/main.xml
+#	new file:   Search and Destroy SMS/res/values/strings.xml
+#	new file:   Search and Destroy SMS/src/com/example/Search_and_Destroy_SMS/MyActivity.java
+#	new file:   Search and Destroy SMS/src/com/example/Search_and_Destroy_SMS/SMS.java
+#
+
