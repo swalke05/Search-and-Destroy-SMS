@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/textView" android:layout_weight="0.06"/>
+
+
+    <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="84dp"
+            android:layout_height="80dp" android:layout_gravity="center_horizontal" android:gravity="center">
+
+
+        <ImageButton
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:id="@+id/imageButton" android:layout_gravity="center_horizontal|top"
+                android:src="@drawable/real_nuke"/>
+    </LinearLayout>
+</LinearLayout>
+
