@@ -4,11 +4,11 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:weightSum="1">
-    <TextView
+    <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="Search"
-            android:id="@+id/textView" android:layout_weight="0.06"/>
+            android:id="@+id/editText" android:layout_weight="0.25"/>
 
 
     <LinearLayout
@@ -24,6 +24,15 @@
                 android:background="@null"
                 android:id="@+id/imageButton" android:layout_gravity="center_horizontal|top"
                 android:src="@drawable/real_nuke"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="158dp" android:layout_weight="0.71">
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/myListView" android:layout_gravity="center_horizontal"/>
     </LinearLayout>
 </LinearLayout>
 
