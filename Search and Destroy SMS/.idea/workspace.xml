@@ -56,10 +56,12 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/Search_and_Destroy_SMS/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09541284" vertical-offset="1478" max-vertical-offset="2465">
-              <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.31743118" vertical-offset="2054" max-vertical-offset="2771">
+              <caret line="134" column="67" selection-start-line="134" selection-start-column="67" selection-end-line="134" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4845#5372#0" expanded="true" />
+                <element signature="e#5360#5361#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -433,7 +435,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -447,7 +449,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33646113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33557048" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23087248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -513,6 +515,8 @@
           <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -550,6 +554,8 @@
           <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,6 +593,8 @@
           <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -624,6 +632,8 @@
           <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,6 +671,8 @@
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -698,6 +710,8 @@
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,6 +749,8 @@
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -772,6 +788,8 @@
           <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -809,6 +827,8 @@
           <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -838,6 +858,8 @@
           <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,6 +889,8 @@
           <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -888,6 +912,8 @@
           <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -909,6 +935,8 @@
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -958,10 +986,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Search_and_Destroy_SMS/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09541284" vertical-offset="1478" max-vertical-offset="2465">
-          <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.31743118" vertical-offset="2054" max-vertical-offset="2771">
+          <caret line="134" column="67" selection-start-line="134" selection-start-column="67" selection-end-line="134" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4845#5372#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
           </folding>
         </state>
       </provider>

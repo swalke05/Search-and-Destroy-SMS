@@ -15,6 +15,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import static android.app.ProgressDialog.show;
 import java.util.ArrayList;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 
 public class MyActivity extends Activity {
     /**
@@ -54,7 +56,7 @@ public class MyActivity extends Activity {
 
         ListView myListView = (ListView) findViewById( R.id.myListView ); //ListView for displaying matched text messages
         ArrayAdapter<SMS> listAdapter;
-        ArrayList<SMS> messages = new ArrayList<SMS>(); //ArrayList for holding all matched text messages
+        final ArrayList<SMS> messages = new ArrayList<SMS>(); //ArrayList for holding all matched text messages MIGHT NOT WANT FINAL
 
         String currentMessage; //Temporary string for current message body
 
@@ -121,6 +123,22 @@ public class MyActivity extends Activity {
 
         listAdapter = new ArrayAdapter<SMS>(this, R.layout.main2, messages);
         myListView.setAdapter(listAdapter);
+
+        myListView.setOnItemClickListener(new OnItemClickListener()
+        {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view,
+                    int position, long arg3) {
+                 SMS  message = (SMS) adapterView
+                        .getItemAtPosition(position);
+                String testmessage = message.body;
+                //from the content object retrieve the attributes you require.
+                Toast.makeText(MyActivity.this, testmessage, Toast.LENGTH_SHORT).show();
+            }
+
+        });
+
+
 
         //Toast.makeText(MyActivity.this, id[2], Toast.LENGTH_SHORT).show();
         c.close();
