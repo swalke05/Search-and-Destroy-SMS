@@ -46,7 +46,7 @@ public class MyActivity extends Activity {
 
         //Toast.makeText(MyActivity.this, query, Toast.LENGTH_SHORT).show();
 
-        Cursor c = getContentResolver().query(Uri.parse("content://sms/inbox"),null,null,null, null);
+        Cursor c = getContentResolver().query(Uri.parse("content://sms/inbox"),null,null,null,null);
         startManagingCursor(c);
 
         int j = 0;
@@ -79,12 +79,45 @@ public class MyActivity extends Activity {
                     //Add this SMS to the Arraylist
                     messages.add(currentText);
 
-                    Toast.makeText(MyActivity.this, currentText.body, Toast.LENGTH_SHORT).show(); //testing
+                    //Toast.makeText(MyActivity.this, currentText.body, Toast.LENGTH_SHORT).show(); //testing
                 }
 
                 c.moveToNext();
             }
         }
+
+        //Reposition cursor to search through sent messages
+        c = getContentResolver().query(Uri.parse("content://sms/sent"),null,null,null,null);
+        startManagingCursor(c);
+        smsEntriesCount = c.getCount(); //Get number of sent messages
+
+        if (c.moveToFirst()) {
+            for (int i = 0; i < smsEntriesCount; i++) {
+                //Get the body of the message we are looking at
+                currentMessage = c.getString(c.getColumnIndexOrThrow("body")).toString();
+
+                //If the message body contains the substring
+                if (currentMessage.toLowerCase().contains(query.toLowerCase())) {
+
+                    SMS currentText = new SMS(null, null, null); //Create new SMS object
+
+
+                    //Save the message, SMS id and phone number in the SMS object
+                    currentText.body = c.getString(c.getColumnIndexOrThrow("body")).toString();
+                    currentText.number = c.getString(c.getColumnIndexOrThrow("address")).toString();
+                    currentText.id = c.getString(c.getColumnIndexOrThrow("_id")).toString();
+
+                    //Add this SMS to the Arraylist
+                    messages.add(currentText);
+
+                    //Toast.makeText(MyActivity.this, currentText.body, Toast.LENGTH_SHORT).show(); //testing
+                }
+
+                c.moveToNext();
+            }
+        }
+
+
 
         listAdapter = new ArrayAdapter<SMS>(this, R.layout.main2, messages);
         myListView.setAdapter(listAdapter);
